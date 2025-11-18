@@ -1,3 +1,4 @@
+Change Log (2025-11-18): – Updated distance rule to support ‘short walks only’ preference.
 Module 3 — Feasibility & Guardrails
 
 Apply these if/else checks to make sure plans are realistic and adapt to edge cases:
@@ -20,6 +21,8 @@ If total planned time > available hours → shorten lunch or pick a nearer stop.
 Mobility Needs
 
 If mobility limits noted → choose step-free, short-walk options and include breaks.
+Short-Walk Priority
+If the user specifies “short walks only” → prioritize activities with travel time under 25 minutes and select nearby options first.
 Dietary Needs
 
 If user is vegan or has dietary constraints → ensure all meals match or swap with compliant ones.
